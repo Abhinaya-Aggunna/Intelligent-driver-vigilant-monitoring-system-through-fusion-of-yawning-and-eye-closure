@@ -1,0 +1,10 @@
+import streamlit as st
+import cv2
+from keras.models import load_model
+from PIL import Image, ImageOps
+import numpy as np
+import dlib
+from imutils import face_utils
+from scipy.spatial import distance as dist
+import pygame
+pygame.mixer.init()
